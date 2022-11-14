@@ -4,17 +4,17 @@
   --font-base: 'Neuton', serif;
   --font-alt: 'Open Sans', sans-serif;
   
-  --color-black: #010606;
-  --color-gray: #545454;
-  --color-grey: #AAAAAA;
-  --color-white: #FFFFFF;
-  --color-cyan: #1B9AAA;
-  --color-light-cyan: #20B9CC;
-  --color-dark-cyan: #105D66;
-  --color-green: #01BF71;
-  --color-light-tan: #F5F1E3;
-  --color-dark-tan: #DDDBCB;
-  --color-sand: #7E7952;
+  --color-black: hsl(180, 71%, 1%);
+  --color-gray: hsl(0, 0%, 50%);
+  --color-grey: hsl(0, 0%, 70%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-cyan: hsl(187, 73%, 39%);
+  --color-light-cyan: hsl(187, 73%, 50%);
+  --color-dark-cyan: hsl(187, 73%, 25%);
+  --color-light-tan: hsl(47, 47%, 92%);
+  --color-light-tan2: hsl(47, 47%, 95%);
+  --color-dark-tan: hsl(47, 47%, 50%);
+  --color-sand: hsl(53, 21%, 41%);
   --color-transparent: transparent;
 }
 

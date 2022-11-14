@@ -5,7 +5,6 @@ import {
 import {
   About,
   Footer,
-  Home,
   Projects,
   WorkHistory
 } from './pages'
@@ -15,7 +14,6 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Home />
       <About />
       <Projects />
       <WorkHistory />

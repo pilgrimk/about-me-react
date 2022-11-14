@@ -106,8 +106,6 @@ function Navbar() {
                 key={page.title}
                 onClick={() => { }}
                 href={page.link}
-                // component={LinkS}
-                // to={page.link}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page.title}
