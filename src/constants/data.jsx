@@ -7,6 +7,12 @@ const pages = [
     { title: 'Contact Me', link: '#footer' }
 ];
 
+const about_me_info = [
+    'Lorem ipsum dolor sit amet. Vel rerum architecto ex mollitia laborum aut labore saepe qui expedita deleniti et quia sunt! Nam dignissimos praesentium At modi eaque est voluptatem vitae.',
+    'Eum ipsam reiciendis non ipsa Quis 33 galisum officia sit beatae voluptatum ut iste voluptatem in recusandae repellat. Est quam saepe aut deserunt ipsum aut voluptas modi et enim natus aut sint aliquid ut velit rerum. Aut impedit error sit aliquid iusto a iste maiores ut omnis numquam.',
+    'Quo accusamus consequuntur ab sint veniam sed debitis voluptatibus qui voluptatum minima. Ad iusto dolores qui atque sint aut consequatur cumque aut illum autem. Sed veniam blanditiis et voluptas quod non expedita temporibus vel sapiente explicabo ut enim voluptates. Aut omnis exercitationem aut dolorum autem nam pariatur ullam non illum nihil et officiis obcaecati cum laudantium voluptatem.'
+]
+
 const projects = [
     {
         title: 'Home Service Groups',
@@ -151,6 +157,7 @@ const social_media = [
 
 const data = {
     pages,
+    about_me_info,
     projects,
     work_history,
     social_media,
