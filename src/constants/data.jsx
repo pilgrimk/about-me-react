@@ -1,5 +1,13 @@
 import images from '../constants/images'
 
+const contact_info = {
+    street: 'PO Box 3573',
+    city: 'Scottsdale',
+    state: 'AZ',
+    postal: '85271',
+    mobile: '801-759-9947'
+}
+
 const pages = [
     { title: 'About', link: '#about' },
     { title: 'Projects', link: '#projects' },
@@ -156,6 +164,7 @@ const social_media = [
 ];
 
 const data = {
+    contact_info,
     pages,
     about_me_info,
     projects,

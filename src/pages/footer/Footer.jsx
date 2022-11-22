@@ -43,12 +43,14 @@ const Footer = () => {
         >
           <Typography
             variant='body1'
-            sx={{ fontStyle: 'italic' }}
+            className='app__font_italic'
           >
             Mailing Information:
           </Typography>
-          <Typography variant='body2'>PO Box 3573</Typography>
-          <Typography variant='body2'>Scottsdale, AZ 85271</Typography>
+          <Typography variant='body2'>{data.contact_info.street}</Typography>
+          <Typography variant='body2'>
+            {data.contact_info.city}, {data.contact_info.state} {data.contact_info.postal}
+            </Typography>
         </Grid>
         <Grid
           item
@@ -63,11 +65,11 @@ const Footer = () => {
         >
           <Typography
             variant='body1'
-            sx={{ fontStyle: 'italic' }}
+            className='app__font_italic'
           >
             Phone Number:
           </Typography>
-          <Typography variant='body2'>M: 801-759-9947</Typography>
+          <Typography variant='body2'>M: {data.contact_info.mobile}</Typography>
         </Grid>
         <Grid
           item
@@ -82,7 +84,7 @@ const Footer = () => {
         >
           <Typography
             variant='body1'
-            sx={{ fontStyle: 'italic' }}
+            className='app__font_italic'
           >
             Social Media:
           </Typography>

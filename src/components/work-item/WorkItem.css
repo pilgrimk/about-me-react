@@ -14,7 +14,6 @@
 }
 
 .headertext__neuton {
-    font-style: italic;
     font-weight: 700;
     color: var(--color-gray);
 }

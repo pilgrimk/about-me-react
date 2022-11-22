@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Box, Grid, Typography } from '@mui/material'
+import { Header } from '../../components'
 import './About.css'
 import data from '../../constants/data'
 import images from '../../constants/images'
@@ -25,33 +26,30 @@ const About = () => {
 
   return (
     <div className='app__about app__bg flex__center section__padding' id='about'>
-      <div className='headtext__neuton'>
-        <p>About Me</p>
-      </div>
+      <Header title='About Me'/>
       <Grid container spacing={2}
         sx={{ mt: '1rem', alignItems: 'center' }}
       >
         <Grid item xs={12} md={6}
-          sx={{
-            alignItems: { xs: 'center', sm: 'center'},
-            justifyContent: { xs: 'center', sm: 'center' },
-          }}
+          container
+          alignItems='center'
+          justifyContent='center'
         >
-          <Box 
+          <Box
             sx={{
               width: { xs: 350, sm: 400, md: 450 },
               height: { xs: 400, sm: 450, md: 500 },
               overflow: 'hidden',
             }}
           >
-          <Box
-            component="img"
-            sx={{
-              width: { xs: 300, sm: 350, md: 400 },
-            }}
-            alt="photo gallery"
-            src={images.gallery_pics[randomInt]}
-          />
+            <Box
+              component="img"
+              sx={{
+                width: { xs: 300, sm: 350, md: 400 },
+              }}
+              alt="photo gallery"
+              src={images.gallery_pics[randomInt]}
+            />
           </Box>
         </Grid>
         <Grid

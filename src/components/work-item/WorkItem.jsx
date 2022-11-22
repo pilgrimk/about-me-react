@@ -6,7 +6,7 @@ const WorkItem = ({ item }) => {
     <div className='app__workitem__container' >
       <div className='app__workitem__header'>
         <div>
-          <p className='headertext__neuton' >{item.title}</p>
+          <p className='headertext__neuton app__font_italic' >{item.title}</p>
           <p className='subheadertext__neuton' >{item.sub_title}</p>
         </div>
         <p className='app__workitem__hire_dates'>{item.hire_dates}</p>

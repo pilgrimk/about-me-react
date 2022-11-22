@@ -52,6 +52,10 @@
   width: 80%;
 }
 
+.app__font_italic {
+  font-style: italic;
+}
+
 .custom__button {
   background-color: var(--color-sand);
   color: var(--color-white);
