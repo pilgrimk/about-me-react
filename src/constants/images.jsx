@@ -1,6 +1,7 @@
 import bg from '../assets/pexels-bg.jpg'
 import photo01 from '../assets/gallery_me1.jpg'
 import default_img from '../assets/pexels-chess.jpg'
+import movies_preview_app from '../assets/movies-preview-app.jpg'
 import home_service_groups from '../assets/home-service-groups.jpg'
 import dogs_playing from '../assets/dogs-playing.jpg'
 import gericht from '../assets/gericht.jpg'
@@ -21,6 +22,7 @@ const images = {
   bg,
   photo01,
   default_img,
+  movies_preview_app,
   home_service_groups,
   dogs_playing,
   gericht,
