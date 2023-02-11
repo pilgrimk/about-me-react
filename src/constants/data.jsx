@@ -16,9 +16,10 @@ const pages = [
 ];
 
 const about_me_info = [
-    'Lorem ipsum dolor sit amet. Vel rerum architecto ex mollitia laborum aut labore saepe qui expedita deleniti et quia sunt! Nam dignissimos praesentium At modi eaque est voluptatem vitae.',
-    'Eum ipsam reiciendis non ipsa Quis 33 galisum officia sit beatae voluptatum ut iste voluptatem in recusandae repellat. Est quam saepe aut deserunt ipsum aut voluptas modi et enim natus aut sint aliquid ut velit rerum. Aut impedit error sit aliquid iusto a iste maiores ut omnis numquam.',
-    'Quo accusamus consequuntur ab sint veniam sed debitis voluptatibus qui voluptatum minima. Ad iusto dolores qui atque sint aut consequatur cumque aut illum autem. Sed veniam blanditiis et voluptas quod non expedita temporibus vel sapiente explicabo ut enim voluptates. Aut omnis exercitationem aut dolorum autem nam pariatur ullam non illum nihil et officiis obcaecati cum laudantium voluptatem.'
+    "I have a very diverse background having lived in numerous places throughout my life. I was born in Montreal, Canada but spent the majority of my first 6 years living with my grandparents in the Caribbean, Port of Spain, Trinidad.  I then moved to the US permanently at the age of 6 being raised predominantly in Upstate New York, Buffalo, Rochester, Albany, and Brooklyn with some years being spent in Pittsburg, PA. I moved out west in the mid-1990s living in Phoenix, Arizona, and Salt Lake City, Utah.",
+    "My work history reflects that same diversity. I graduated from Union College with a bachelor's degree in Applied Mathematics and have spent the vast majority of my career as a software engineer.  As a software engineer, I've worked in varying fields from college administration, business software, the semiconductor industry, medical EMR systems, and property management.",
+    "I try to stay very active by getting to the gym 3-4 times a week.  I enjoy hiking, mountain biking, paddle boarding, volleyball, and coffee house chess.  I also homebrew as a hobby, really enjoying hoppy IPAs and malty brews.",
+    "I have one beautiful daughter who is the apple of my eye!  I spent 17 years raising her in Salt Lake City and now that she's moved to Phoenix with me as a young adult, I couldn't be happier.  I try my best to be a good example to her of how embrace continued learning, self improvement, and attitude of gratitude, personal fitness, and a healthy, grounded lifestyle."
 ]
 
 const projects = [

@@ -2,6 +2,7 @@ import React from 'react'
 import { Header, WorkItem } from '../../components'
 import './WorkHistory.css'
 import data from '../../constants/data'
+import shortid from 'shortid'
 
 const WorkHistory = () => {
   return (
@@ -9,7 +10,7 @@ const WorkHistory = () => {
       <Header title='Work History' />
       <div className='app__wrapper_info'>
         {data.work_history.map((item) => (
-          <WorkItem item={item} />
+          <WorkItem item={item} key={shortid.generate()}/>
         ))}
       </div>
     </div>

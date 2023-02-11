@@ -4,8 +4,10 @@ import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
-import './Footer.css'
+import shortid from 'shortid'
 import data from '../../constants/data'
+import './Footer.css'
+
 
 const Footer = () => {
   const getLinkedIcon = (title) => {
@@ -96,7 +98,11 @@ const Footer = () => {
             }}
           >
             {data.social_media.map((media) => (
-              <IconButton aria-label={media.title} href={media.link}>
+              <IconButton 
+              key={shortid.generate()}
+              aria-label={media.title} 
+              href={media.link}
+              >
                 {getLinkedIcon(media.title)}
               </IconButton>
             ))}

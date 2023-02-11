@@ -1,4 +1,5 @@
 import React from 'react'
+import shortid from 'shortid'
 import './WorkItem.css'
 
 const WorkItem = ({ item }) => {
@@ -19,7 +20,11 @@ const WorkItem = ({ item }) => {
       <div className='divider' />
       <div className='app__workitem__info'>
         {item.experience.map((exp) => (
-          <p className='p__opensans-non-cap p__spacing' >- {exp}</p>
+          <p className='p__opensans-non-cap p__spacing' 
+          key={shortid.generate()}
+          >
+            - {exp}
+          </p>
         ))}
       </div>
     </div>
