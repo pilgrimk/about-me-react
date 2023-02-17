@@ -29,15 +29,15 @@ const projects = [
         url: 'https://resonant-choux-29f713.netlify.app/',
         imgUrl: images.movies_preview_app,
         img_alt: 'movies preview',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
-        title: 'Home Service Groups',
+        title: 'Open AI Dall-E Clone',
         sub_title: '',
-        url: 'https://homeservicegroups.com',
-        imgUrl: images.home_service_groups,
-        img_alt: 'home service',
-        desc: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt'
+        url: 'https://dalle-clone-client.netlify.app',
+        imgUrl: images.dall_e,
+        img_alt: 'dall-e clone',
+        desc: 'Cras sed felis eget velit. Commodo viverra maecenas accumsan lacus vel. Dignissim diam quis enim lobortis scelerisque fermentum. A diam maecenas sed enim ut. Mauris rhoncus aenean vel elit scelerisque mauris. Blandit aliquam etiam erat velit scelerisque in dictum non.'
     },
     {
         title: 'Dog Training',
@@ -62,6 +62,14 @@ const projects = [
         imgUrl: images.ecomm,
         img_alt: 'eComm',
         desc: 'Eget nunc scelerisque viverra mauris in aliquam sem. Ultrices eros in cursus turpis massa tincidunt dui. Arcu dictum varius duis at consectetur lorem donec massa sapien.'
+    },
+    {
+        title: 'Home Service Groups',
+        sub_title: '',
+        url: 'https://homeservicegroups.com',
+        imgUrl: images.home_service_groups,
+        img_alt: 'home service',
+        desc: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.'
     }
 ]
 
