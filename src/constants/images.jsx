@@ -16,7 +16,13 @@ import gallery6 from '../assets/gallery_TaeyaAndMe1.jpg'
 import gallery7 from '../assets/gallery_TaeyaAndMe2.jpg'
 
 const gallery_pics = [
-  gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7
+  gallery1, 
+  gallery2, 
+  gallery3, 
+  gallery4, 
+  gallery5, 
+  gallery6, 
+  gallery7
 ]
 
 const images = {
