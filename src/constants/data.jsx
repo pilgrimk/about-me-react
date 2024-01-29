@@ -24,12 +24,28 @@ const about_me_info = [
 
 const projects = [
     {
+        title: 'CSS Construction LLC',
+        sub_title: '',
+        url: 'https://cssconstructionllc.com/',
+        imgUrl: images.css_construction_llc,
+        img_alt: 'css construction',
+        desc: 'A live informational site built for a close friend who needed an internet presence for his construction company, demonstrating services offered.'
+    },
+    {
+        title: 'NBCS',
+        sub_title: '',
+        url: 'https://northbeachschutzhundclub.com/',
+        imgUrl: images.dogs_playing,
+        img_alt: 'dogs',
+        desc: 'A live informational site built for a close friend who needed an internet presence for their schutzhund club, intruducing the club along with upcoming events.'
+    },    
+    {
         title: 'Movies Preview',
         sub_title: '',
         url: 'https://resonant-choux-29f713.netlify.app/',
         imgUrl: images.movies_preview_app,
         img_alt: 'movies preview',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        desc: 'A personal project that reaches out to a movie database API to display upcoming movies allowing users to search, review and rate their preferences.'
     },
     {
         title: 'Open AI Dall-E Clone',
@@ -37,15 +53,7 @@ const projects = [
         url: 'https://dalle-clone-client.netlify.app',
         imgUrl: images.dall_e,
         img_alt: 'dall-e clone',
-        desc: 'Cras sed felis eget velit. Commodo viverra maecenas accumsan lacus vel. Dignissim diam quis enim lobortis scelerisque fermentum. A diam maecenas sed enim ut. Mauris rhoncus aenean vel elit scelerisque mauris. Blandit aliquam etiam erat velit scelerisque in dictum non.'
-    },
-    {
-        title: 'Dog Training',
-        sub_title: '',
-        url: 'https://cool-stroopwafel-c066dc.netlify.app',
-        imgUrl: images.dogs_playing,
-        img_alt: 'dogs',
-        desc: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        desc: 'A YouTube lesson project that allows users to personally prompt a Dall-E AI image generator engine and then display and/ or store the output image.'
     },
     {
         title: 'Gericht Restaurant',
@@ -53,7 +61,7 @@ const projects = [
         url: 'https://scintillating-pithivier-428425.netlify.app',
         imgUrl: images.gericht,
         img_alt: 'restaurant',
-        desc: 'Ut diam quam nulla porttitor massa id neque aliquam. Imperdiet dui accumsan sit amet nulla facilisi. Consectetur a erat nam at lectus urna duis. Neque vitae tempus quam pellentesque nec. interdum consectetur libero id faucibus.'
+        desc: 'A YouTube lesson project that demonstates an informational site for a sample high end restaurant.'
     },
     {
         title: 'eCommerce Site',
@@ -61,7 +69,7 @@ const projects = [
         url: 'https://spectacular-lolly-6f317a.netlify.app',
         imgUrl: images.ecomm,
         img_alt: 'eComm',
-        desc: 'Eget nunc scelerisque viverra mauris in aliquam sem. Ultrices eros in cursus turpis massa tincidunt dui. Arcu dictum varius duis at consectetur lorem donec massa sapien.'
+        desc: 'A YouTube lesson project that demonstates an eCommerce site where users may use Stripe credit card processing to purchase products.'
     },
     {
         title: 'Home Service Groups',
@@ -69,7 +77,7 @@ const projects = [
         url: 'https://homeservicegroups.com',
         imgUrl: images.home_service_groups,
         img_alt: 'home service',
-        desc: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.'
+        desc: 'A personal project that allows users to upload .HAR files from Zillow or Redfin and then display available properties with purchase information on a display map.'
     }
 ]
 
@@ -82,7 +90,7 @@ const work_history = [
         city: 'Scottsdale',
         state: 'AZ',
         postal: '85258',
-        hire_dates: '2015 - Present',
+        hire_dates: '2015 - 2024',
         experience: [
             'Software developer for a nationwide property management, software development company; responsible for application development and rolling out of code enhancements for clients utilizing our existing code base',
             'Personally responsible for the addition of aTwilio SMS messaging service to the application functionality',
