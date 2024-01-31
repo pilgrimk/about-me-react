@@ -1,13 +1,15 @@
 import Navbar from './navbar/Navbar'
 import WorkItem from './work-item/WorkItem'
-import ProjectCard from './projectcard/ProjectCard'
+import ProjectCard from './project-card/ProjectCard'
+import Carousel from './carousel/Carousel'
 import Header from './header/Header'
-import CarouselStepper from './carouselstepper/CarouselStepper'
+import Footer from './footer/Footer'
 
 export {
   Navbar,
   WorkItem,
   ProjectCard,
+  Carousel,
   Header,
-  CarouselStepper
+  Footer
 };

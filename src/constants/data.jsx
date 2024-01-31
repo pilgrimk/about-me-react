@@ -1,11 +1,51 @@
 import images from '../constants/images'
 
+const navlinks = [
+    {
+      link_title: 'About',
+      link_to: 'about'
+    },
+    {
+      link_title: 'Projects',
+      link_to: 'projects'
+    },
+    {
+      link_title: 'Work',
+      link_to: 'work-history'
+    },
+    {
+      link_title: 'Contact',
+      link_to: 'contact'
+    }
+  ];
+
 const contact_info = {
+    first_name: 'Kevin',
+    last_name: 'Pilgrim',
+    full_name: 'Kevin Pilgrim',
     street: 'PO Box 3573',
     city: 'Scottsdale',
     state: 'AZ',
     postal: '85271',
-    mobile: '801-759-9947'
+    mobile: '801-759-9947',
+    social_media: [
+        {
+            title: 'Facebook',
+            link: 'https://www.facebook.com/kevin.pilgrim.184/'
+        },
+        {
+            title: 'Instagram',
+            link: 'https://www.instagram.com/kevin.pilgrim.184/'
+        },
+        {
+            title: 'Twitter',
+            link: 'https://twitter.com/pilgrimka1'
+        },
+        {
+            title: 'LinkedIn',
+            link: 'https://www.linkedin.com/in/kevinpilgrim/'
+        }
+    ]
 }
 
 const pages = [
@@ -17,9 +57,9 @@ const pages = [
 
 const about_me_info = [
     "I have a very diverse background having lived in numerous places throughout my life. I was born in Montreal, Canada but spent the majority of my first 6 years living with my grandparents in the Caribbean, Port of Spain, Trinidad.  I then moved to the US permanently at the age of 6 being raised predominantly in Upstate New York, Buffalo, Rochester, Albany, and Brooklyn with some years being spent in Pittsburg, PA. I moved out west in the mid-1990s living in Phoenix, Arizona, and Salt Lake City, Utah.",
-    "My work history reflects that same diversity. I graduated from Union College with a bachelor's degree in Applied Mathematics and have spent the vast majority of my career as a software engineer.  As a software engineer, I've worked in varying fields from college administration, business software, the semiconductor industry, medical EMR systems, and property management.",
+    "My work history reflects that same diversity. I graduated from Union College with a bachelor's degree in Applied Mathematics and have spent the vast majority of my career as a software engineer.  I've worked in varying fields from college administration, business software, the semiconductor industry, medical EMR systems, and property management and now web development.",
+    "I have one beautiful daughter who is the apple of my eye!  I spent 17 years raising her in Salt Lake City and now that she's moved to Phoenix with me as a young adult, I couldn't be happier.  I try my best to be a good example to her of how to embrace continued learning, self improvement, an attitude of gratitude, personal fitness, and a healthy, grounded lifestyle.",
     "I try to stay very active by getting to the gym 3-4 times a week.  I enjoy hiking, mountain biking, paddle boarding, volleyball, and coffee house chess.  I also homebrew as a hobby, really enjoying hoppy IPAs and malty brews.",
-    "I have one beautiful daughter who is the apple of my eye!  I spent 17 years raising her in Salt Lake City and now that she's moved to Phoenix with me as a young adult, I couldn't be happier.  I try my best to be a good example to her of how to embrace continued learning, self improvement, an attitude of gratitude, personal fitness, and a healthy, grounded lifestyle."
 ]
 
 const projects = [
@@ -169,32 +209,13 @@ const work_history = [
     },
 ];
 
-const social_media = [
-    {
-        title: 'Facebook',
-        link: 'https://www.facebook.com/kevin.pilgrim.184/'
-    },
-    {
-        title: 'Instagram',
-        link: 'https://www.instagram.com/kevin.pilgrim.184/'
-    },
-    {
-        title: 'Twitter',
-        link: 'https://twitter.com/pilgrimka1'
-    },
-    {
-        title: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/kevinpilgrim/'
-    }
-];
-
 const data = {
+    navlinks,
     contact_info,
     pages,
     about_me_info,
     projects,
-    work_history,
-    social_media,
+    work_history
 };
 
 export default data;

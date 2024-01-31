@@ -1,11 +1,11 @@
+import Home from './home/Home'
 import About from './about/About'
-import Footer from './footer/Footer'
 import Projects from './projects/Projects'
-import WorkHistory from './workhistory/WorkHistory'
+import WorkHistory from './work-history/WorkHistory'
 
 export {
+  Home,
   About,
-  Footer,
   Projects,
   WorkHistory
 };

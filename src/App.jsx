@@ -1,24 +1,24 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import {
-  Navbar
+  Navbar,
+  Footer
 } from './components'
-import {
-  About,
-  Footer,
-  Projects,
-  WorkHistory
-} from './pages'
+import { Home } from './pages'
 import './App.css'
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <About />
-      <Projects />
-      <WorkHistory />
-      <Footer />
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+        <Route path="/home" element={<Home />} />
+          <Route path="*" element={<Navigate to="/home" replace />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   )
 }
 
