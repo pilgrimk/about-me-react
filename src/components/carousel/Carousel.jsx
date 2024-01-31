@@ -13,12 +13,12 @@ const Carousel = ({ images }) => {
   }, [currentIndex, images.length]);
 
   return (
-    <div className="relative max-w-md h-full">
+    <div className="relative w-full h-full">
       {images.map((image, index) => (
         <div
         key={index}
         className={`top-0 left-0 w-full h-full transition-transform duration-1000 transform ${
-          index === currentIndex ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
+          index === currentIndex ? 'translate-x-0' : 'translate-x-full'
         }`}
         style={{ display: index === currentIndex ? 'block' : 'none' }}
       >

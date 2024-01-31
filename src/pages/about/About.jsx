@@ -12,7 +12,7 @@ const About = () => {
         <Header title='About Me' />
         <div className='flex flex-col md:flex-row items-center
         md:space-x-8 max-w-5xl bg-slate-50 rounded-2xl mt-4 mx-4 p-4'>
-          <div id='about-me-gallery' className='md:w-1/2'>
+          <div id='about-me-gallery' className='w-96 h-96'>
             <Carousel images={images.gallery_pics} />
           </div>
           <div id='about-me-info'
