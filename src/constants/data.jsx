@@ -64,6 +64,14 @@ const about_me_info = [
 
 const projects = [
     {
+        title: 'Movies Preview',
+        sub_title: '',
+        url: 'https://resonant-choux-29f713.netlify.app/',
+        imgUrl: images.movies_preview_app,
+        img_alt: 'movies preview',
+        desc: 'A full-stack personal project that utilized a movie database API to display upcoming movies allowing users to search, review and rate their preferences.'
+    },
+    {
         title: 'CSS Construction LLC',
         sub_title: '',
         url: 'https://cssconstructionllc.com/',
@@ -72,6 +80,14 @@ const projects = [
         desc: 'A live informational site built for a close friend who needed an internet presence for his construction company, demonstrating services offered.'
     },
     {
+        title: 'Peak Performance',
+        sub_title: '',
+        url: 'https://faith-peak-performance.com/',
+        imgUrl: images.peak_performance,
+        img_alt: 'peak performance',
+        desc: 'A live informational site built for a close friend who needed an internet presence for her personal training gym, demonstrating services offered.'
+    },    
+    {
         title: 'NBCS',
         sub_title: '',
         url: 'https://northbeachschutzhundclub.com/',
@@ -79,14 +95,6 @@ const projects = [
         img_alt: 'dogs',
         desc: 'A live informational site built for a close friend who needed an internet presence for their schutzhund club, intruducing the club along with upcoming events.'
     },    
-    {
-        title: 'Movies Preview',
-        sub_title: '',
-        url: 'https://resonant-choux-29f713.netlify.app/',
-        imgUrl: images.movies_preview_app,
-        img_alt: 'movies preview',
-        desc: 'A personal project that reaches out to a movie database API to display upcoming movies allowing users to search, review and rate their preferences.'
-    },
     {
         title: 'Open AI Dall-E Clone',
         sub_title: '',

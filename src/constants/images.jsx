@@ -5,6 +5,7 @@ import home_service_groups from '../assets/home-service-groups.jpg'
 import dogs_playing from '../assets/dogs-playing.jpg'
 import gericht from '../assets/gericht.jpg'
 import css_construction_llc from '../assets/css-construction-llc.jpg'
+import peak_performance from '../assets/faith-peak-performance.jpg'
 import ecomm from '../assets/ecomm.jpg'
 import dall_e from '../assets/dalle-clone.jpg'
 import gallery1 from '../assets/gallery_me4.jpg'
@@ -37,6 +38,7 @@ const images = {
   dogs_playing,
   gericht,
   css_construction_llc,
+  peak_performance,
   dall_e,
   ecomm,
   gallery_pics
