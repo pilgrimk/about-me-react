@@ -25,7 +25,8 @@ const contact_info = {
     full_name: 'Kevin Pilgrim',
     street: 'PO Box 3573',
     city: 'Scottsdale',
-    state: 'AZ',
+    state: 'Arizona',
+    state_short: 'AZ',
     postal: '85271',
     mobile: '801-759-9947',
     social_media: [
