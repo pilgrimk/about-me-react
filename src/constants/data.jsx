@@ -144,7 +144,7 @@ const work_history = [
             'Designed, developed, and deployed multiple professional websites meeting client specifications and deadlines',
             'Collaborated closely with clients to understand their vision and deliver tailored solutions that exceed expectations',
             'Employed use of responsive design techniques to ensure optimal user experience across various device platforms',
-            'Implemented React, JavaScript, TailwindCSS and RESTful API technologies to deliver responsive web appllications, some of which are demonstrated in the PROJECTS segment above'
+            'Implemented React, JavaScript, TailwindCSS and RESTful API technologies to deliver responsive web applications, some of which are demonstrated in the PROJECTS segment above'
         ]
     },    
     {
