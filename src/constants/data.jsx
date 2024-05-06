@@ -132,6 +132,22 @@ const projects = [
 
 const work_history = [
     {
+        title: 'Freelance Web Developer',
+        sub_title: '',
+        company: 'Self-Employed',
+        address1: 'PO Box 3573',
+        city: 'Scottsdale',
+        state: 'AZ',
+        postal: '85271',
+        hire_dates: '2022 - Pres',
+        experience: [
+            'Designed, developed, and deployed multiple professional websites meeting client specifications and deadlines',
+            'Collaborated closely with clients to understand their vision and deliver tailored solutions that exceed expectations',
+            'Employed use of responsive design techniques to ensure optimal user experience across various device platforms',
+            'Implemented React, JavaScript, TailwindCSS and RESTful API technologies to deliver responsive web appllications, some of which are demonstrated in the PROJECTS segment above'
+        ]
+    },    
+    {
         title: 'Software Engineer II',
         sub_title: '',
         company: 'Yardi Systems, Inc',
@@ -142,8 +158,9 @@ const work_history = [
         hire_dates: '2015 - 2024',
         experience: [
             'Software developer for a nationwide property management, software development company; responsible for application development and rolling out of code enhancements for clients utilizing our existing code base',
-            'Personally responsible for the addition of aTwilio SMS messaging service to the application functionality',
-            'Use of Microsoft Visual Studio and Oracle SQL Developer software development environments'
+            'Personally responsible for the addition of several third-party functionality integrations and code enhancements to include Twilio SMS messaging service, RSign documentation integration, Yardi Credit Card Processing and HTML-5 email functionality',
+            'Participated in multiple design upgrades allowing our applications to maintain compliance in meeting PCI audit requirements',
+            'Extensive use of Microsoft Visual Studio and Oracle SQL Developer software development environments'
         ]
     },
     {
