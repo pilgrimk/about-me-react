@@ -67,11 +67,19 @@ const projects = [
     {
         title: 'Movies Preview',
         sub_title: '',
-        url: 'https://resonant-choux-29f713.netlify.app/',
+        url: 'https://movies-preview-kp.netlify.app',
         imgUrl: images.movies_preview_app,
         img_alt: 'movies preview',
-        desc: 'A full-stack personal project that utilized a movie database API to display upcoming movies allowing users to search, review and rate their preferences.'
+        desc: 'A full-stack personal project that utilized a RESTful API movie database to display upcoming movies allowing users to search, review and rate their preferences.'
     },
+    {
+        title: 'Kiss Analog',
+        sub_title: '',
+        url: 'https://kiss-analog-test.netlify.app/',
+        imgUrl: images.kiss_analog,
+        img_alt: 'kiss analog',
+        desc: 'A full-stack test site built for a friend that utilized a RESTful API and MongoDB for his electronic component review site with active blog posts.'
+    },    
     {
         title: 'CSS Construction LLC',
         sub_title: '',
@@ -99,7 +107,7 @@ const projects = [
     {
         title: 'Open AI Dall-E Clone',
         sub_title: '',
-        url: 'https://dalle-clone-client.netlify.app',
+        url: 'https://dalle-clone-client.netlify.app/',
         imgUrl: images.dall_e,
         img_alt: 'dall-e clone',
         desc: 'A YouTube lesson project that allows users to personally prompt a Dall-E AI image generator engine and then display and/ or store the output image.'
@@ -107,7 +115,7 @@ const projects = [
     {
         title: 'Gericht Restaurant',
         sub_title: 'Fine dining tutorial',
-        url: 'https://scintillating-pithivier-428425.netlify.app',
+        url: 'https://gericht-restaurent-test.netlify.app/',
         imgUrl: images.gericht,
         img_alt: 'restaurant',
         desc: 'A YouTube lesson project that demonstates an informational site for a sample high end restaurant.'
@@ -115,7 +123,7 @@ const projects = [
     {
         title: 'eCommerce Site',
         sub_title: '',
-        url: 'https://spectacular-lolly-6f317a.netlify.app',
+        url: 'https://ecomm-test-kp.netlify.app/',
         imgUrl: images.ecomm,
         img_alt: 'eComm',
         desc: 'A YouTube lesson project that demonstates an eCommerce site where users may use Stripe credit card processing to purchase products.'
@@ -123,7 +131,7 @@ const projects = [
     {
         title: 'Home Service Groups',
         sub_title: '',
-        url: 'https://homeservicegroups.com',
+        url: 'https://homeservicegroups.com/',
         imgUrl: images.home_service_groups,
         img_alt: 'home service',
         desc: 'A personal project that allows users to upload .HAR files from Zillow or Redfin and then display available properties with purchase information on a display map.'

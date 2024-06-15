@@ -6,6 +6,7 @@ import dogs_playing from '../assets/dogs-playing.jpg'
 import gericht from '../assets/gericht.jpg'
 import css_construction_llc from '../assets/css-construction-llc.jpg'
 import peak_performance from '../assets/faith-peak-performance.jpg'
+import kiss_analog from '../assets/kiss-analog.jpg'
 import ecomm from '../assets/ecomm.jpg'
 import dall_e from '../assets/dalle-clone.jpg'
 import gallery1 from '../assets/gallery_me4.jpg'
@@ -33,6 +34,7 @@ const gallery_pics = [
 const images = {
   bg,
   photo01,
+  kiss_analog,
   movies_preview_app,
   home_service_groups,
   dogs_playing,
