@@ -58,7 +58,7 @@ const pages = [
 
 const about_me_info = [
     "I have a very diverse background having lived in numerous places throughout my life. I was born in Montreal, Canada but spent the majority of my first 6 years living with my grandparents in the Caribbean, Port of Spain, Trinidad.  I then moved to the US permanently at the age of 6 being raised predominantly in Upstate New York, Buffalo, Rochester, Albany, and Brooklyn with some years being spent in Pittsburg, PA. I moved out west in the mid-1990s living in Phoenix, Arizona, and Salt Lake City, Utah.",
-    "My work history reflects that same diversity. I graduated from Union College with a bachelor's degree in Applied Mathematics and have spent the vast majority of my career as a software engineer.  I've worked in varying fields from college administration, business software, the semiconductor industry, medical EMR systems, and property management and now web development.",
+    "My work history reflects that same diversity. I graduated from Union College with a bachelor's degree in Applied Mathematics and have spent the vast majority of my career as a software engineer.  In that capacity I've worked in varying fields from college administration, business software, the semiconductor industry, medical EMR systems, property management and now web development.",
     "I have one beautiful daughter who is the apple of my eye!  I spent 17 years raising her in Salt Lake City and now that she's moved to Phoenix with me as a young adult, I couldn't be happier.  I try my best to be a good example to her of how to embrace continued learning, self improvement, an attitude of gratitude, personal fitness, and a healthy, grounded lifestyle.",
     "I try to stay very active by getting to the gym 3-4 times a week.  I enjoy hiking, mountain biking, paddle boarding, volleyball, and coffee house chess.  I also homebrew as a hobby, really enjoying hoppy IPAs and malty brews.",
 ]
@@ -152,7 +152,8 @@ const work_history = [
             'Designed, developed, and deployed multiple professional websites meeting client specifications and deadlines',
             'Collaborated closely with clients to understand their vision and deliver tailored solutions that exceed expectations',
             'Employed use of responsive design techniques to ensure optimal user experience across various device platforms',
-            'Implemented React, JavaScript, TailwindCSS and RESTful API technologies to deliver responsive web applications, some of which are demonstrated in the PROJECTS segment above'
+            'Implemented React, JavaScript, TailwindCSS and RESTful API technologies to deliver responsive web applications, some of which are demonstrated in the PROJECTS segment above',
+            'Extensive use of Microsoft Visual Studio Code, Postman, MongoDB and GitHub repository',
         ]
     },    
     {
@@ -168,7 +169,7 @@ const work_history = [
             'Software developer for a nationwide property management, software development company; responsible for application development and rolling out of code enhancements for clients utilizing our existing code base',
             'Personally responsible for the addition of several third-party functionality integrations and code enhancements to include Twilio SMS messaging service, RSign documentation integration, Yardi Credit Card Processing and HTML-5 email functionality',
             'Participated in multiple design upgrades allowing our applications to maintain compliance in meeting PCI audit requirements',
-            'Extensive use of Microsoft Visual Studio and Oracle SQL Developer software development environments'
+            'Extensive use of Microsoft Visual Studio (VB.Net, C#), SoapUI and Oracle SQL Developer',
         ]
     },
     {
@@ -182,7 +183,8 @@ const work_history = [
         hire_dates: '2008 - 2015',
         experience: [
             'Interface developer for a nationwide medical software development company; personally responsible for providing communication software between our proprietary EMR system and various medical PMS systems, laboratory systems, medical billing systems, scheduling systems and national medical agencies utilizing SQL, VB.NET software and HL7 messaging protocol',
-            'Responsible for the design, architecture and implementation of our hosted EMR interface mechanism making use of Corepoint software, our proprietary CLXCentralizedService and SQL databases to process an average of 3.5 million monthly interface messages in support of over 200 hosted client systems'
+            'Responsible for the design, architecture and implementation of our hosted EMR interface mechanism making use of Corepoint software, our proprietary CLXCentralizedService and SQL databases to process an average of 3.5 million monthly interface messages in support of over 200 hosted client systems',
+            'Extensive use of Microsoft Visual Studio (VB.Net, C#) and Microsoft SQL Server',
         ]
     },
     {
