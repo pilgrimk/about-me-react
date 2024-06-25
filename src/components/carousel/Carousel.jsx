@@ -22,7 +22,7 @@ const Carousel = ({ images }) => {
         }`}
         style={{ display: index === currentIndex ? 'block' : 'none' }}
       >
-        <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
+        <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-cover rounded-md" />
       </div>
       ))}
     </div>

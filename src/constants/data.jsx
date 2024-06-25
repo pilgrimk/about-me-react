@@ -70,7 +70,8 @@ const projects = [
         url: 'https://movies-preview-kp.netlify.app',
         imgUrl: images.movies_preview_app,
         img_alt: 'movies preview',
-        desc: 'A full-stack personal project that utilized a RESTful API movie database to display upcoming movies allowing users to search, review and rate their preferences.'
+        desc: 'A full-stack personal project that utilized a RESTful API movie database to display upcoming movies allowing users to search, review and rate their preferences.',
+        tech: 'React, JavaScript, ASP.Net RESTful API, Firebase Auth',
     },
     {
         title: 'Kiss Analog',
@@ -78,7 +79,8 @@ const projects = [
         url: 'https://kiss-analog-test.netlify.app/',
         imgUrl: images.kiss_analog,
         img_alt: 'kiss analog',
-        desc: 'A full-stack test site built for a friend that utilized a RESTful API and MongoDB for his electronic component review site with active blog posts.'
+        desc: 'A full-stack test site built for a friend that utilized a RESTful API and MongoDB for his electronic component review site with active blog posts.',
+        tech: 'React, JavaScript, ASP.Net RESTful API, MongoDB',
     },    
     {
         title: 'CSS Construction LLC',
@@ -86,7 +88,8 @@ const projects = [
         url: 'https://cssconstructionllc.com/',
         imgUrl: images.css_construction_llc,
         img_alt: 'css construction',
-        desc: 'A live informational site built for a close friend who needed an internet presence for his construction company, demonstrating services offered.'
+        desc: 'A live informational site built for a close friend who needed an internet presence for his construction company, demonstrating services offered.',
+        tech: 'React, JavaScript, Cloudinary',
     },
     {
         title: 'Peak Performance',
@@ -94,7 +97,8 @@ const projects = [
         url: 'https://faith-peak-performance.com/',
         imgUrl: images.peak_performance,
         img_alt: 'peak performance',
-        desc: 'A live informational site built for a close friend who needed an internet presence for her personal training gym, demonstrating services offered.'
+        desc: 'A live informational site built for a close friend who needed an internet presence for her personal training gym, demonstrating services offered.',
+        tech: 'React, JavaScript, Cloudinary',
     },    
     {
         title: 'NBCS',
@@ -102,7 +106,8 @@ const projects = [
         url: 'https://northbeachschutzhundclub.com/',
         imgUrl: images.dogs_playing,
         img_alt: 'dogs',
-        desc: 'A live informational site built for a close friend who needed an internet presence for their schutzhund club, intruducing the club along with upcoming events.'
+        desc: 'A live informational site built for a close friend who needed an internet presence for their schutzhund club, intruducing the club along with upcoming events.',
+        tech: 'React, JavaScript',
     },    
     {
         title: 'Open AI Dall-E Clone',
@@ -110,7 +115,8 @@ const projects = [
         url: 'https://dalle-clone-client.netlify.app/',
         imgUrl: images.dall_e,
         img_alt: 'dall-e clone',
-        desc: 'A YouTube lesson project that allows users to personally prompt a Dall-E AI image generator engine and then display and/ or store the output image.'
+        desc: 'A YouTube lesson project that allows users to personally prompt a Dall-E AI image generator engine and then display and/ or store the output image.',
+        tech: 'React, JavaScript, OpenAI, Express, MongoDB, Cloudinary',
     },
     {
         title: 'Gericht Restaurant',
@@ -118,7 +124,8 @@ const projects = [
         url: 'https://gericht-restaurent-test.netlify.app/',
         imgUrl: images.gericht,
         img_alt: 'restaurant',
-        desc: 'A YouTube lesson project that demonstates an informational site for a sample high end restaurant.'
+        desc: 'A YouTube lesson project that demonstates an informational site for a sample high end restaurant.',
+        tech: 'React, JavaScript',
     },
     {
         title: 'eCommerce Site',
@@ -126,7 +133,8 @@ const projects = [
         url: 'https://ecomm-test-kp.netlify.app/',
         imgUrl: images.ecomm,
         img_alt: 'eComm',
-        desc: 'A YouTube lesson project that demonstates an eCommerce site where users may use Stripe credit card processing to purchase products.'
+        desc: 'A YouTube lesson project that demonstates an eCommerce site where users may use Stripe credit card processing to purchase products.',
+        tech: 'React, JavaScript, Stripe Payment Processing',
     },
     {
         title: 'Home Service Groups',
@@ -134,7 +142,8 @@ const projects = [
         url: 'https://homeservicegroups.com/',
         imgUrl: images.home_service_groups,
         img_alt: 'home service',
-        desc: 'A personal project that allows users to upload .HAR files from Zillow or Redfin and then display available properties with purchase information on a display map.'
+        desc: 'A personal project that allows users to upload .HAR files from Zillow or Redfin and then display available properties with purchase information on a display map.',
+        tech: 'React, JavaScript, ASP.Net RESTful API, MapBox',
     }
 ]
 
